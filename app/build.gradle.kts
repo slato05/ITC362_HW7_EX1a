@@ -57,7 +57,9 @@ dependencies {
     ksp (libs.moshi.kotlin.codegen)
     ksp (libs.androidx.room.compiler)
 
-
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
 
     //testImplementation 'junit:junit:4.13.2'
     //androidTestImplementation 'androidx.test.ext:junit:1.1.5'
